@@ -1,0 +1,49 @@
+{
+    "day-offers" : [
+        {
+            "id": 1,
+            "title": "Kit Dados",
+            "slug": "kit-dados",
+            "image": "./src/assets/d20.png",
+            "price": 200,
+            "promotion-price": 150,
+            "amount": 10
+        },
+        {
+            "id": 2,
+            "title": "Dados d20",
+            "slug": "dados-d20",
+            "image": "./src/assets/d20.png",
+            "price": 80,
+            "promotion-price": 40,
+            "amount": 30
+        },
+        {
+            "id": 3,
+            "title": "Dados d10", 
+            "slug": "dados-d10",
+            "image": "./src/assets/d20.png",
+            "price": 50,
+            "promotion-price": 30,
+            "amount": 2
+        },
+        {
+            "id": 4,
+            "title": "Dados d8",
+            "slug": "dados-d8",
+            "image": "./src/assets/d20.png",
+            "price": 24,
+            "promotion-price": 15,
+            "amount": 15
+        },
+        {
+            "id": 5,
+            "title": "Dados d6",
+            "slug": "dados-d6",
+            "image": "./src/assets/d20.png",
+            "price": 18,
+            "promotion-price": 10,
+            "amount": 0
+        }
+    ]
+}

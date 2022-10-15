@@ -1,0 +1,20 @@
+@import '../../../../../../styles/variables.scss';
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: $white;
+    border-radius: $br-md;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: 485px;
+
+    &:focus-within {
+        box-shadow: 0 0 4px 2px $primary-color-light;
+    }
+
+    input {
+        width: 100%;
+    }
+}

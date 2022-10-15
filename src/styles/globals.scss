@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: 0;
+    box-shadow: 0 0 4px 2px $primary-color-light;
+}
+
+body {
+    background-color: $background;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font: $fw-regular 1rem Inter, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+input,
+input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.container {
+    width: 100%;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}

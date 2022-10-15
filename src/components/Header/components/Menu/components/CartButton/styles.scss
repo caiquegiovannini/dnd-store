@@ -1,0 +1,24 @@
+@import '../../../../../../styles/variables.scss';
+
+.cart-button {
+    position: relative;
+
+    cursor: pointer;
+
+    &__items-amount {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -5px;
+        right: -7px;
+        background-color: $primary-color;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+
+        color: $white;
+        font-size: $fz-xsm;
+        font-weight: $fw-medium;
+    }
+}

@@ -1,0 +1,29 @@
+@import '../../../../styles/variables.scss';
+
+.navigation-menu {
+    background-color: $primary-color;
+    width: 100%;
+
+    &__links {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        list-style: none;
+    }
+
+    li {
+        padding: 0.75rem 0;
+    }
+
+    li > a {
+        font-weight: $fw-bold;
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        &:hover,
+        &.active {
+            border-bottom: 2px solid $white;
+        }
+    }
+}
